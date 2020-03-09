@@ -25,7 +25,7 @@ import java.util.Optional;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-abstract class AbstractDelegatingVirtualFileSystem extends AbstractVirtualFileSystem {
+abstract public class AbstractDelegatingVirtualFileSystem extends AbstractVirtualFileSystem {
     private final AbstractVirtualFileSystem delegate;
 
     public AbstractDelegatingVirtualFileSystem(AbstractVirtualFileSystem delegate) {
